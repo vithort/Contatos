@@ -1,5 +1,5 @@
 {
-  "name": "Contatos",
+  "name": "contatos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.0.0",
+    "restify": "^8.4.0",
+    "sequelize": "^5.21.2"
+  }
 }
