@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 //criação do client conexão
-const sequelize = new Sequelize('contatos', 'root', '', {
+const sequelize = new Sequelize('contatos', 'root', 'root', {
     host: "localhost",
     port: 3306,
     dialect: 'mysql',
